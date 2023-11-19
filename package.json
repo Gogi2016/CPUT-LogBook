@@ -1,5 +1,5 @@
 {
-  "name": "cput-logbook",
+  "name": "backend",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -9,15 +9,48 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/webpack-config": "^19.0.0",
+    "@react-native-async-storage/async-storage": "1.18.2",
+    "@react-native-community/slider": "4.4.2",
+    "@react-navigation/native": "^6.1.7",
+    "@react-navigation/stack": "^6.3.17",
+    "axios": "^1.5.1",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
     "expo": "~49.0.10",
     "expo-status-bar": "~1.6.0",
-    "react": "18.2.0",
-    "react-native": "0.72.4"
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.3",
+    "nodemailer": "^6.9.7",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "0.72.6",
+    "react-native-calendars": "^1.1301.0",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-modal-datetime-picker": "^17.1.0",
+    "react-native-pdf-lib": "^1.0.0",
+    "react-native-web": "~0.19.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0",
+    "@babel/core": "^7.22.19",
     "@types/react": "~18.2.14",
-    "typescript": "^5.1.3"
+    "@types/react-native": "^0.72.3",
+    "@types/react-native-datepicker": "^1.7.1",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "eslint": "^8.50.0",
+    "react-native-dotenv": "^3.4.9",
+    "typescript": "^5.2.2"
   },
-  "private": true
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
